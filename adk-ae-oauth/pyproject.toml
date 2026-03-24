@@ -2,9 +2,7 @@
 name = "adk-ae-oauth"
 version = "0.1.0"
 description = ""
-authors = [
-    {name = "Your Name", email = "your@email.com"},
-]
+authors = []
 dependencies = [
     "google-adk>=1.15.0,<2.0.0",
     "opentelemetry-instrumentation-google-genai>=0.1.0,<1.0.0",

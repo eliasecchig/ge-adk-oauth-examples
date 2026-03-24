@@ -101,8 +101,8 @@ register-oauth:
 # Usage:
 #   make register-gemini-enterprise                          (interactive)
 #   make register-gemini-enterprise \                        (non-interactive)
-#     AUTH_ID_RESOURCE="projects/630458277802/locations/eu/authorizations/google-drive-auth" \
-#     GE_APP_ID="projects/630458277802/locations/eu/collections/default_collection/engines/gemini-enterprise-demo_1774200341534" \
+#     AUTH_ID_RESOURCE="projects/<PROJECT_NUMBER>/locations/<LOCATION>/authorizations/google-drive-auth" \
+#     GE_APP_ID="projects/<PROJECT_NUMBER>/locations/<LOCATION>/collections/default_collection/engines/<ENGINE_ID>" \
 #     DISPLAY_NAME="Drive Reader Agent" \
 #     DESCRIPTION="Reads files from Google Drive" \
 #     TOOL_DESCRIPTION="Read content of a Google Drive file on behalf of the user"

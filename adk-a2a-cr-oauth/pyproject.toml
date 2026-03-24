@@ -2,9 +2,7 @@
 name = "adk-a2a-cr-oauth"
 version = "0.1.0"
 description = ""
-authors = [
-    {name = "Your Name", email = "your@email.com"},
-]
+authors = []
 dependencies = [
     "google-adk>=1.16.0,<2.0.0",
     "a2a-sdk~=0.3.22",
@@ -119,4 +117,3 @@ session_type = "in_memory"
 cicd_runner = "skip"
 include_data_ingestion = false
 datastore = "none"
-agent_guidance_filename = "CLAUDE.md"
